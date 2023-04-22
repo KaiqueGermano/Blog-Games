@@ -1,0 +1,95 @@
+/* estilo global*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+    font-family: Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+  /* fundo */
+  body {
+    background-image: linear-gradient(to right, #330D1F, #260A1A,#070510)
+  }
+  /* cabeçalho */
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  }
+  
+  .imgHeader{
+    height: 72px;
+  }
+  
+  .head{
+    display: flex;
+    gap: 32px;
+  }
+  
+  .menuItem{
+    font-weight: bold;
+  }
+  
+  /*barra de pesquisa*/
+  .searchBar {
+    background-color: #271522;
+    border-color: #271522;
+    border-radius: 4px;
+    width: 350px;
+    height: 50px;
+  }
+  
+  .searchButton{
+    width: 5%;
+    height: 50px;
+      padding: 10px;
+      border: none;
+      margin-bottom: 10px;
+      border-radius: 5px; 
+  }
+  
+  .imgSearch{
+    height: 50px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #9F2040;
+  }
+  
+  .pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+  }
+  /*conteudo do site*/
+  .conteudo{
+  display: flex;
+   align-items: center; 
+   flex-direction:column ;
+   padding: 30px;
+  }
+  
+  .gameTitle{
+  padding: 20px;
+    font-size: 40px;
+  }
+  
+  .imgGame{
+    width: 60%;
+    padding: 10px;
+  }
+  /*roda pe do site*/
+  .rodaPe{
+    display: flex;
+    justify-content:center;
+    align-items: stretch;
+    font-size: 15px;
+  }
+  
+  .imgSocial{
+    width: 40px;
+  }
